@@ -1,0 +1,35 @@
+jupyterlab-ou-brand-extension
+jupyterlab-cell-status-extension
+
+# Renderers
+jupyterlab_myst
+jupyterlab-empinken-extension
+jupyterlab-geojson>=3
+
+# Error reporting / Linting
+jupyterlab-skip-traceback
+
+# File editing and management
+jupyterlab-git
+# jupytext option not showing in JupyterLab File menu?
+jupytext
+
+# Local filesystem access not working in Codespace?
+#jupyterlab-filesystem-access
+jupyter-archive
+
+# Authoring support
+jupyterlab-spellchecker
+
+# Teaching Environment Utilities
+stickyland
+
+# Language packs
+jupyterlab-language-pack-fr-FR
+jupyterlab-language-pack-zh-CN
+
+# Resource monitoring / tracking
+jupyter-resource-usage
+
+# For use supporting data wrangler - https://github.com/dilshod/xlsx2csv
+xlsx2csv
