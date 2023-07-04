@@ -1,14 +1,13 @@
 {
   //"image": "mcr.microsoft.com/devcontainers/universal:2",
-  "image": "mmh352/tm351:23j.0b8", //"ouvocl/vce-tm351-jh:22j-b8",
+  "image": "ousefulcoursecontainers/ou-m348:23j.0t1",
   "hostRequirements": {
     //"cpus": 4
   },
   //"waitFor": "onCreateCommand",
-  "waitFor": "postStartCommand",
-  "updateContentCommand": "", //"python3 -m pip install -r requirements.txt",
-  //"postCreateCommand": "sudo /var/startup/start_jh_extras",
-  "postStartCommand": "sudo service postgresql restart && sudo service mongod restart",
+  //"waitFor": "postStartCommand",
+  "updateContentCommand": "",
+  "postStartCommand": "",
   "customizations": {
     "codespaces": {
       "openFiles": []
@@ -20,10 +19,7 @@
         "extensions.verifySignature": false
       },
       "extensions": [
-        "ms-toolsai.jupyter",
-        "ms-python.python",
-        "ExecutableBookProject.myst-highlight",
-        "ms-toolsai.datawrangler"
+        "ms-toolsai.jupyter"
       ]
     }
   }
