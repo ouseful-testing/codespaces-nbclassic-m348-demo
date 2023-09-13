@@ -1,6 +1,7 @@
 {
   //"image": "mcr.microsoft.com/devcontainers/universal:2",
-  "image": "ousefulcoursecontainers/ou-m348:23j.0t1",
+  //"image": "ousefulcoursecontainers/ou-m348:23j.0t1",
+  "image": "ousefulcoursecontainers/ou-m348:23j",
   "hostRequirements": {
     //"cpus": 4
   },
