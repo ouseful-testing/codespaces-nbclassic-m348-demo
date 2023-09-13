@@ -8,7 +8,7 @@
   //"waitFor": "onCreateCommand",
   //"waitFor": "postStartCommand",
   "updateContentCommand": "",
-  "postStartCommand": "start.sh &",
+  "postStartCommand": "",
   "customizations": {
     "codespaces": {
       "openFiles": []
