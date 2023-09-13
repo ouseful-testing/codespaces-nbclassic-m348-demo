@@ -5,14 +5,20 @@ Demo of running an OU maintained Docker container as the computational environme
 To run:
 
 - (clone this repository)
-- from the repository Code / Codespaces menu, launche a new Codespace with a VS Code user interface
-- run the notebooks in the VS Code interface
+- from the repository Code / Codespaces menu, launch a new Codespace with a VS Code user interface; *if you have a stopped environment, then you can start it again, and seleect "Open in browser" to launch the VS Code interface.*
+- when the Codespace has loaded, from the VS Code terminal, run the command: `start.sh`; when prompted, click to "Open in browser" to launch the Jupyter notebook server.
 
-Currently broken:
+![Open in browser dialogue](.images/browser-open.png)
 
-- when the Codespace has loaded, from the VS Code terminal, tun the command: `start.sh' [WORKS]
-- a notebook server should start running, and you a pop-up should appear offering to *Open in Browser*; click the button, and access the notebook server (use the password/token `M348-23J`); note - it may take soem time to open / open a notebook; [WORKS]
-- run the notebook code cells [BROKEN - KERNEL ERROR]
+Use the password `M348-23J` to access the environment.
+
+You can also launch the browser from the *Ports* tab: in the row that maps port 8888, hover you mouse ober the forwarded addresses item, and click the globe icon to launch the window.
+
+![Launching browser from Ports tabs](.images/port-map.png)
+
+*You can optionally run the notebooks in the VS Code interface.*
+
+![Running notebooks in VS Code](.images/notebook_in_vscode.png)
 
 ## End-User Rationale
 
@@ -32,3 +38,4 @@ The demo is interesting for several reasons:
 
 - file edits can be persisted in a Github repository using the VS Code git extension. (Modified files are persisted in the container and can also be published to a new branch);
   - __provides a natural rationale for getting students into the habit of using version control / git__
+  - __NOTE THAT THE REPOSITORY IS PUBLIC: I'M NOT SURE IF YOU CAN WORK WITH PRIVATE REPOS FOR FREE IN DEVSPACES. IF YOU CAN, YOU WILL NEED TO CREATE A PRIVATE REPO AND COPY THE `.devcontainer/devcontainer.json` FILE FROM THIS REPO INTO IT.__
